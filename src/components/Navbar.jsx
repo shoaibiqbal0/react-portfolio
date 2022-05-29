@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
 
-function Navbar() {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   const handleClick = () => setNav(!nav);
@@ -41,9 +43,17 @@ function Navbar() {
         <li className="py-6 text-4xl">Contact</li>
       </ul>
       {/* Social Icons */}
-      <div className="hidden"></div>
+      <div className="flex fixed flex-col top-[35%] left-0">
+        <ul>
+          <li>
+            <a href="">
+              LinkedIn <FaLinkedinIn></FaLinkedinIn>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
-}
+};
 
 export default Navbar;
