@@ -12,6 +12,18 @@ const About = () => {
           </div>
           <div></div>
         </div>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+          <p className="sm:text-right text-4xl font-bold">
+            Hi. I'm Shoaib, nice to meet you. Please take a look around.
+          </p>
+          <div>
+            <p>
+              I am passionate about technology and comfortable building scalable
+              full stack application using the latest technologies such as;
+              React, Node, Express and MongoDB.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
