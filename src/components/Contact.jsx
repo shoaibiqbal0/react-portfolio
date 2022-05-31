@@ -14,28 +14,28 @@ const Contact = () => {
           <p className="text-gray-300 py-4">
             Submit the form below or email me at: shoaibiqbal0@gmail.com
           </p>
-          <input
-            className="my-4 p-2 bg-gray-300"
-            type="text"
-            placeholder="Name"
-            name="name"
-          />
-          <input
-            className="my-4 p-2 bg-gray-300"
-            type="email"
-            placeholder="Email"
-            name="email"
-          />
-          <textarea
-            className="bg-gray-300 p-2"
-            name="message"
-            rows="10"
-            placeholder="Message"
-          />
-          <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 mx-auto flex items-center">
-            Submit
-          </button>
         </div>
+        <input
+          className="my-4 p-2 bg-gray-300"
+          type="text"
+          placeholder="Name"
+          name="name"
+        />
+        <input
+          className="my-4 p-2 bg-gray-300"
+          type="email"
+          placeholder="Email"
+          name="email"
+        />
+        <textarea
+          className="bg-gray-300 p-2"
+          name="message"
+          rows="10"
+          placeholder="Message"
+        />
+        <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
+          Submit
+        </button>
       </form>
     </div>
   );
